@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>expressive.js</title>
+        <link rel="icon" type="image/png" href="assets/logo.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+        <!-- jQuery (Bootstrap JS plugins depend on it) -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stopwordsnone.js"></script>
+        <script src="js/sentimood.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <div id="main-content">
+            <h1><img src="assets/logo.png" width="55px" height="55px" alt="e" />xpressive.js</h1>
+            <p id="desc">An advanced <a href="https://github.com/soops/sentimood" target="_blank">sentimood.js</a> real-time client-side sentiment analyzer</p>
+            <textarea id="textArea" name="textArea" placeholder="Type something and hit Enter...." autofocus></textarea>
+            <div id="disp"></div>
+            <div id="score"></div>
+        </div>
+        
+        <footer class="container-fluid text-center">
+            <p>Designed and Coded by : surhud004 &copy; 2019</p><!--Build Date: 04th August 2019-->
+        </footer>
+        <script type="text/javascript">
+            var input = document.getElementById("textArea");
+            input.addEventListener("keyup", function(event) {
+            if (event.keyCode === 32 || event.keyCode === 13) {
+                event.preventDefault();
+                analyze_it();
+                if(event.keyCode === 13) {
+                	document.getElementById('textArea').value = "";
+                }
+                }
+            });
+        </script>
+    </body>
+</html>

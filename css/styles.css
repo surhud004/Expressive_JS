@@ -1,0 +1,99 @@
+body{
+	font-family: 'Oxygen', monospace;
+	background-color: #262626;
+}
+#main-content{
+	text-align: center;
+}
+h1{
+	text-align: center;
+	color: #e34234;
+	padding-top: 40px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+#desc{
+  color: white;
+}
+a{
+  color: white;
+}
+#disp{
+  border-radius: 25px;
+  border: 1px solid #ffffff;
+  margin-top: 40px;
+  width: 600px; 
+  height: 50px;
+  font-size: 24px;
+  padding: 10px;
+  resize: none;
+  overflow: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#score{
+  border-radius: 25px;
+  border: 1px solid #ffffff;
+  margin-top: 40px;
+  width: 600px; 
+  height: 60px;
+  font-size: 24px;
+  padding: 10px;
+  resize: none;
+  overflow: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+div::-webkit-scrollbar { 
+    display: none;
+}
+textarea {
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background-color: #262626;
+  margin-top: 40px;
+  padding: 20px;
+  width: 600px; 
+  height: 150px;
+  font-size:24px;
+  resize: none;
+  overflow: auto;
+}
+textarea:focus {
+    box-shadow: 0 0 10px #ffffff;
+    border: 2px solid #ffffff;
+    outline: none;
+    resize: none;
+    overflow: auto;
+}
+textarea::-webkit-scrollbar { 
+    display: none;
+}
+span {
+    color: white;
+}
+span.strongneg {
+    color: red;
+}
+span.neg{
+  color: orange;
+}
+span.strongpos {
+  color: green;
+}
+span.pos{
+  color: greenyellow;
+}
+span.stop {
+  color: cyan;
+}
+footer {
+	padding: 10px;
+	color: #e34234;
+	position:fixed;
+ 	bottom:0;
+ 	left:0;
+}
