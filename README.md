@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## Expressive_JS - An advanced [sentimood.js](https://github.com/soops/sentimood) real-time client-side sentiment analyzer
 
-You can use the [editor on GitHub](https://github.com/surhud004/Expressive_JS/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Development Flowchart
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Flowchart](https://github.com/surhud004/Expressive_JS/Flowchart.png)
 
-### Markdown
+### Features
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Client-side, in-browser Sentiment Analysis
+- Real-time, instant output as soon as you type-in the word
+- Stopwords removal for basic vocabulary
+- Negation handling for unigrams, bigrams as well as trigrams
 
-```markdown
-Syntax highlighted code block
+### Acknowledgement
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/surhud004/Expressive_JS/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Ethan Arterberry's [sentimood.js](https://github.com/soops/sentimood)
+- Kevin Roth's [Sentimental](https://github.com/thinkroth/Sentimental)
+- Finn Årup Nielsen for [AFINN Lexicon](https://github.com/fnielsen/afinn)
