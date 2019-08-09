@@ -1,8 +1,8 @@
-## Expressive_JS - An advanced [sentimood.js](https://github.com/soops/sentimood) real-time client-side sentiment analyzer
+## Expressive.JS - An advanced [sentimood.js](https://github.com/soops/sentimood) real-time client-side sentiment analyzer
 
 ### Development Flowchart
 
-![Flowchart](https://github.com/surhud004/Expressive_JS/Flowchart.png)
+![Flowchart](https://github.com/surhud004/Expressive_JS/blob/master/Flowchart.png)
 
 ### Features
 
